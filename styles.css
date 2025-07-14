@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-left: 30px;
+}
+footer{
+    background-color: white;
+    display: flex;
+}
+header {
+    background-color: #ffffff;
+    padding: 40px 0px 0px;
+}
+.red_logo{
+    padding-bottom: 17px;
+}
+
+textarea {
+    color: white;
+  resize: none;
+}
+
+main{
+    background-color: rgb(146, 49, 49);
+    height: 182vh;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+input[type="checkbox"]{
+    margin: 4px;
+}
+
+label{
+    display: inline;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    padding-left: 5px;
+}
+
+.red_logo {
+    width: 130px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main_text{
+    float: left;
+}
+
+.redcard_container{
+    margin-bottom: 60vh;
+    padding-left: 18vh;
+    margin-top: 45vh;
+}
+
+.sub_text{
+    color: rgb(255, 253, 253);
+    display: inline-block;
+    font-size: 5.5em;
+    font-weight: bold;
+}
+.sub_menu_text{
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+.appli_text{
+font-family: "Noto Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    padding-right: 2vh;
+    letter-spacing: 0.2rem;
+    text-align: left;
+}
+
+.main_form{
+    padding-top: 40px;
+}
+
+.form_container{
+    display: flex;
+    float: right;
+  margin-right: 5%;
+    margin-top: 8.5vh;
+}
+
+.sub_input_name, .sub_input_email, .sub_input_organization{
+    width: 90%;
+    height: 58px;
+    margin-left: 2px;
+        border: 2px white solid;
+    margin-bottom: 17px;
+    background-color: rgb(146, 49, 49);
+    font-size: 0.9rem;
+}
+
+.sub_input_name::placeholder{
+        padding: 10px;
+    color: hsla(0, 0%, 100%, 0.847);
+    padding-right: 10px;
+}
+.sub_input_email::placeholder{
+        padding: 10px;
+    color: hsla(0, 0%, 100%, 0.847);
+    padding-right: 10px;
+}
+.sub_input_organization::placeholder{
+        padding: 10px;
+    color: hsla(0, 0%, 100%, 0.847);
+    padding-right: 10px;
+}
+
+.sub_input_Award{
+    border: 1px rgb(255, 255, 255) solid;
+    width: 30px;
+}
+
+.checkbox_text{
+            display: flex;
+}
+.title_check{
+    font-size: 25px;
+    display: inline;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.tickbox_check{
+    margin-bottom: 20px;
+}
+.tick_text{
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: white;
+    display: flex;
+}
+
+.sub_dessc_box{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sub_desc_name{
+    width: 90%;
+    height: 11vh;
+        border: 2px white solid;
+    overflow-wrap: anywhere;
+    background-color: rgb(146, 49, 49);
+    font-size: 0.9rem;
+}
+
+.input_border_flex{
+    display: flex;
+}
+
+.sub_desc_name::placeholder{
+    position: absolute;
+    padding-left: 10px;
+    top: 10px;
+    color: hsla(0, 0%, 100%, 0.847);
+}
+
+
+.btn_sec{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.sub_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67vh;
+    height: 9vh;
+}
+.btn_txt{
+    padding: 10px;
+}
+.submission_success{
+    font-size: 20px;
+}
+
+.triangle {
+  width: 130px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%,100% 0,100% 100%);
+  background: linear-gradient(45deg,#ffffff,#ffffff);
+}
+.vector_whit_tran{
+                position: absolute;
+            top: 192vh;
+            right: 0;
+      float: right; 
+}
+
+@media all and (max-width: 700px){
+    body{
+        padding-left: 0px;
+    }
+    .redcard_container{
+        padding-left: 60px
+    }
+    main{
+        height: 340vh;
+    }
+    .vector_whit_tran{
+        display: none;
+    }
+    .btn_sec{
+        margin-left: 30px;
+    }
+}

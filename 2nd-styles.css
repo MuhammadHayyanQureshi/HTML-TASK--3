@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f400;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+footer{
+    background-color: white;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 40px 0px 0px;
+}
+.end_footer{
+    display: flex;
+    background-color: rgb(137, 39, 39);        
+}
+
+.end_red_container{
+    background-color: rgb(137, 39, 39);    
+    padding: 20vh;
+}
+
+.red_logo{
+    padding-bottom: 17px;
+    padding-top: 8vh;
+}
+
+main, #main_text{
+    height: 103vh;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.full_text_border{
+    padding-right: 40vh;
+}
+
+.red_logo {
+    width: 150px;
+    height: auto;
+}
+
+.main_text{
+    float: left;
+}
+
+.redcard_container{
+    background-color: rgb(137, 39, 39);    
+    padding-left: 30vh;
+    height: 100%;
+}
+
+.end_sub_text{
+     color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.sub_text{
+font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(255, 253, 253);
+    display: inline-block;
+    font-size: 5.6em;
+    font-style: normal;
+}
+.sub_menu_text{
+    font-family: "Red Hat Text", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.appli_text{
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+      font-style: normal;
+      font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 2.6em;
+    padding-bottom: 35px;
+    letter-spacing: 0.2rem;
+}
+.triangle {
+  width: 140px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%,100% 0,100% 100%);
+  background: linear-gradient(45deg,#ffffff,#ffffff);
+}
+.vector_whit_tran{
+                position: absolute;
+            top: 85vh;
+            right: 0;
+      float: right; 
+}
+
+.best_clubs_sec{
+    display: inline-flex;
+}
+.clubs_contain{
+    margin-top: 9vh;
+    margin-left: 25vh;
+}
+
+.club_title{
+    padding: 18px;
+    font-size: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+.clubs{
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    color: black;
+    float: right;
+}
+
+.club_groups{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 15vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+._clubs_text_png{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.Club_BVB{
+    display: flex;
+    margin: auto;
+    width: 100px;
+}
+#cent_text{
+    font-family: "Lexend Deca", sans-serif;
+    color: rgb(146, 49, 49);
+    text-align: center;
+    font-weight: bolder;
+}
+#cent_text_2{
+    font-family: "Lexend Deca", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.end_vector_whit_tran{
+                position: absolute;
+            top: 443.3vh;
+            right: 0;
+      float: right; 
+}
+.end_triangle {
+  width: 190px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%,100% 0,100% 100%);
+  background: linear-gradient(45deg,#ffffff,#ffffff);
+}
+.BVB_text{
+    padding-top: 28px;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 320px)and (max-width: 700px) {
+    body{
+        padding: 0px;
+    }
+    .redcard_container{
+        background-color: rgb(137, 39, 39);    
+        width: 366%;
+        padding: 0px;
+    }
+    .red_logo{
+        padding: 0px;
+    }
+    .triangle{
+        display: none;
+    }
+    .end_triangle{
+        display: none;
+    }
+    .end_red_container{
+        width: 366%;
+    }
+    .clubs_contain{
+        margin-left: 15vh;
+    }
+}
