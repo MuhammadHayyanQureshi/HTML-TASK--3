@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
+    border: 1px red solid;
     margin: 0;
     box-sizing: border-box;
 }
@@ -41,14 +42,14 @@ p{
 }
 
 input[type="checkbox"]{
-    margin: 4px;
+    margin: 7px;
 }
 
 label{
     display: inline;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 2px;
+    margin: 4px;
     padding-left: 5px;
 }
 
@@ -128,9 +129,8 @@ font-family: "Noto Sans", sans-serif;
     padding-right: 10px;
 }
 
-.sub_input_Award{
+.checkbox-cont .sub_input_Award{
     border: 1px rgb(255, 255, 255) solid;
-    width: 30px;
 }
 
 .checkbox_text{
