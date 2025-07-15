@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
 *{
-    border: 1px red solid;
     margin: 0;
     box-sizing: border-box;
 }
@@ -49,7 +48,8 @@ label{
     display: inline;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 4px;
+    margin: 3px;
+    padding-right: 22vh;
     padding-left: 5px;
 }
 
@@ -76,19 +76,17 @@ label{
     font-weight: bold;
 }
 .sub_menu_text{
-    font-family: "Noto Sans", sans-serif;
+     font-family: "Roboto Flex", sans-serif;
+     font-style: normal;
+     font-optical-sizing: auto;
     color: rgb(0, 0, 0);
     font-size: 1.2em;
 }
 .appli_text{
-font-family: "Noto Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-      font-weight: 900;
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 800;
     color: rgb(0, 0, 0);
-    font-size: 2em;
-    padding-right: 2vh;
-    letter-spacing: 0.2rem;
+    font-size: 3rem;
     text-align: left;
 }
 
@@ -131,6 +129,11 @@ font-family: "Noto Sans", sans-serif;
 
 .checkbox-cont .sub_input_Award{
     border: 1px rgb(255, 255, 255) solid;
+}
+
+.start-checkbox-cont{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .checkbox_text{
