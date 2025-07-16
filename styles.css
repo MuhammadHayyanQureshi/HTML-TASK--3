@@ -43,16 +43,20 @@ p{
 }
 
 input[type="checkbox"]{
-    margin: 7px;
+    margin: 9px;
 }
 
+span{
+    color: rgb(130, 130, 130);
+    position: relative;
+    left: 19.9px;
+    top: 5px;
+}
 label{
     display: inline;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 3px;
-    padding-right: 22vh;
-    padding-left: 5px;
+    margin: 5px;
 }
 
 .red_logo {
@@ -105,6 +109,36 @@ label{
     float: right;
   margin-right: 5%;
     margin-top: 8.5vh;
+}
+
+.sub_input_Award_text{
+      padding-right: 19vh;
+    padding-left: 3px;
+}
+.sub_input_tour_text{
+    padding-right: 14vh;
+    padding-left: 3px;
+}
+
+.sub_input_act_text{
+    padding-right: 10vh;
+    padding-left: 3px;
+}
+.sub_input_tech_text{
+    padding-right: 10vh;
+    padding-left: 3px;
+}
+
+.sub_input_camp_text{
+    padding-right: 11vh;
+    padding-left: 3px;
+}
+
+.right-symbol{
+      color: rgb(130, 130, 130);
+    position: relative;
+    left: 25px;
+    top: -2px;
 }
 
 .sub_input_name, .sub_input_email, .sub_input_organization{
@@ -199,7 +233,11 @@ label{
     height: 9vh;
 }
 .btn_txt{
-    padding: 10px;
+    font-size: 30px;
+    padding-top: 11px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 11px;
 }
 .submission_success{
     font-size: 20px;
